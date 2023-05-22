@@ -1,9 +1,13 @@
-import Image from 'next/image'
+import Hero from './components/Hero'
+import Gallery from './components/Gallery'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 style={{fontSize:"100px"}}>under construction...</h1>
+    <>
+    <Hero/>
+    <main className="">
+      <Gallery/>
     </main>
+    </>
   )
 }
