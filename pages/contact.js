@@ -1,17 +1,18 @@
 import React from "react";
-import PageHeader from "../components/PageHeader";
-import Pricing from "../components/Pricing";
+import PageHeader from "@/components/PageHeader";
+import Contact from "@/components/Contact";
 
 function page() {
   return (
     <div>
+      {" "}
       <PageHeader
-        title={"Pricing"}
+        title={"Contact"}
         subtitle={
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         }
       />
-      <Pricing/>
+      <Contact />
     </div>
   );
 }
